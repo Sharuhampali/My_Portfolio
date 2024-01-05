@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+    <nav id="desktop-nav">
+      <div class="logo">SHARU G HAMPALI</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+         
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">SHARU G HAMPALI</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+         
+          
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile.png" alt=" profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">SHARU G HAMPALI</h1>
+        <p class="section__text__p2">Student at RV University</p>
+       
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-containe">
+          <img
+            src="about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Ongoing Projects in <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Pursuing B.Tech. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             
+Greetings! I'm a dedicated B.Tech CSE student at RV University, passionate about exploring the intersections
+ of technology, creativity, and problem-solving. Proficient in web design, data analysis, C programming, and mathematics
+ , I find joy in crafting visually appealing websites, diving into the intricacies of data, mastering the efficiency of 
+ C programming, and applying mathematical principles to solve intricate problems. With a keen interest in making a positive
+impact in the tech world, I'm excited about opportunities for innovation,collaboration, and continuous learning. Let's connect
+ and embark on a journey of exploration and creation!
+            </p>
+          </div>
+        </div>
+      </div>
+     
+   
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">My</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ClimateCraft- A weather forecast web</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sharuhampali/Climate_Craft.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sharuhampali.github.io/Climate_Craft/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Nature Explorer- A Blog On Nature's Beauty</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://sharuhampali.github.io/Blog/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sharuhampali/Blog.git'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+   
+      <section id="contact">
+        <h1 class="title">Contact Me</h1>
+      
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:hampalisharu@gmail.com">hampalisharu@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon email-icon" />
+            <p><a href="https://in.linkedin.com/in/sharu-hampali-5975362a2">LinkedIn</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="github.png" alt="GITHUB icon" class="icon contact-icon email-icon" />
+            <p><a href="https://github.com/Sharuhampali">GitHub</a></p>
+          </div>
+        </div>
+      
+        <div class="contactForm">
+          <h3>Contact Me</h3>
+          <div class="inputBox">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="inputBox">
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="inputBox">
+            <textarea placeholder="Include a Message!"></textarea>
+          </div>
+          <div class="inputBox">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </section>
+      
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">Get in Touch</h1>
+            
+        <h2>Contact</h2>
+        
+        <address>
+          Address: 12, 3rd main, 6th cross, Kengeri, Banglore<br>
+              
+        <a class="footer__btn" href="mailto:hampalisharu@gmail.com">Email</a>
+        </address>
+      </div>
+      
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">LINKS</h2>
+    
+          <ul class="nav__ul">
+            <li>
+              <a href="#profile">HOME</a>
+            </li>
+            
+            <li>
+              <a href="#about">ABOUT</a>
+            </li>
+            
+           
+            
+            <li>
+              <a href="#projects">PROJECTS</a>
+            </li>
+            
+            <li>
+              <a href="#contact">CONTACT INFORMATION</a>
+            </li>
+            
+           
+                
+           
+          </ul>
+        </li>
+        
+        
+        
+      <div class="legal">
+        <p>&copy; 2024 Sharu G Hampali. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
